@@ -5,7 +5,6 @@ class Car {
     private String name;
     private int wheels;
 
-    private String color;
 
     public Car(int cylinders, String name) {
         this.cylinders = cylinders;
