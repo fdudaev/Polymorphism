@@ -4,7 +4,8 @@ class Movie {
     public Movie(String name) {
         this.name = name;
     }
-// text
+// text+
+    // another text
     public String plot() {
         return "No plot here";
     }
