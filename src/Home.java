@@ -18,6 +18,13 @@ public class Home {
         this.stories = stories;
     }
 
+    public String openMainDoor (boolean DoYouHaveKeys){
+        if (!DoYouHaveKeys){
+            return "Please find keys";
+        }
+        return "Car is starting";
+    }
+
     public String getColor() {
         return color;
     }
