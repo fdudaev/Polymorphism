@@ -17,4 +17,32 @@ public class Home {
         this.garages = garages;
         this.stories = stories;
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getNumberOfDoors() {
+        return numberOfDoors;
+    }
+
+    public int getNumberOfWindows() {
+        return numberOfWindows;
+    }
+
+    public int getNumberOfRooms() {
+        return numberOfRooms;
+    }
+
+    public int getNumberOfRestRooms() {
+        return numberOfRestRooms;
+    }
+
+    public int getGarages() {
+        return garages;
+    }
+
+    public int getStories() {
+        return stories;
+    }
 }
